@@ -2,7 +2,7 @@
 
 This PowerShell script compacts WSL (Windows Subsystem for Linux) ext4.vhdx virtual disk files to free physical disk space.
 
-⚠️ Important: Before running the script you should first clean up Docker artifacts (containers, images, volumes, networks) because the WSL virtual disk can contain Docker data and unused Docker artifacts will prevent reclaiming space effectively.
+⚠️ Important: Before running the script you should first clean up Docker artifacts (containers, images, volumes, networks) because the WSL virtual disk can contain Docker data and unused Docker artifacts will prevent reclaiming space effectively.  SEE DOCKERCLEANUP.SH to help clean your docker install.
 
 ---
 
