@@ -14,7 +14,7 @@ This PowerShell script compacts WSL (Windows Subsystem for Linux) ext4.vhdx virt
 
 ---
 
-## Before you run — clean Docker first (recommended)
+## Before you run — clean Docker first (recommended - see dockercleanup.sh on the main branch)
 
 If your WSL disks hold Docker images, containers and volumes, reclaiming space requires removing unused Docker objects before compacting. The following commands are destructive: they permanently remove stopped containers, unused images, volumes, and networks.
 
